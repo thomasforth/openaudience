@@ -18,7 +18,7 @@ And process it in C# to create two tables
 These are then served from a database, via PHP, to an HTML5 app that process user input and displays the results.
 
 ## License
-The code, both for processing the raw data, and for running openaudience.org is licensed under the MIT license. Data is licensed under the [Open Government License v3 (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), as it based on OGL licensed content itself.
+The code for processing the raw data is licensed under the MIT license. Data is licensed under the [Open Government License v3 (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), as it based on OGL licensed content itself.
 
 ## Funding
 This work was funded by [Leeds Capital of Culture 2023 and Leeds City Council](http://leeds2023.co.uk/). It has been tested in Leeds and Bradford with Universities, small arts venues, and at The Open Data Institute Leeds.
