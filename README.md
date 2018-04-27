@@ -18,6 +18,7 @@ We process it in C# to create two tables,
 
 1. Postcode to Output Area lookup.
 2. Output Area to data lookup (there are over 30 columns in this table).
+
 These are then served from a database, via PHP, to an HTML5 app that process user input and displays the results.
 
 ## License
