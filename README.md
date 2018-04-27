@@ -13,7 +13,9 @@ We take the following data,
 * [Ethnic group, by Nomis Web](https://www.nomisweb.co.uk/census/2011/qs201ew)
 * [Postcode to Output Area to ... from the ONS](https://ons.maps.arcgis.com/home/item.html?id=ef72efd6adf64b11a2228f7b3e95deea)
 * [Output Area to ... to MSOA from the ONS](http://geoportal.statistics.gov.uk/datasets/output-area-to-local-authority-district-to-lower-layer-super-output-area-to-middle-layer-super-output-area-to-local-enterprise-partnership-april-2017-lookup-in-england-v2)
-And process it in C# to create two tables
+
+We process it in C# to create two tables,
+
 1. Postcode to Output Area lookup.
 2. Output Area to data lookup (there are over 30 columns in this table).
 These are then served from a database, via PHP, to an HTML5 app that process user input and displays the results.
