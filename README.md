@@ -9,6 +9,7 @@ We take the following data,
 * [Pen Portraits, from the ONS](https://www.ons.gov.uk/methodology/geography/geographicalproducts/areaclassifications/2011areaclassifications/datasets)
 * [Approximated Social Grade, from Nomis](https://www.nomisweb.co.uk/census/2011/qs611ew)
 * [Age by single year, from Nomis Web](https://www.nomisweb.co.uk/census/2011/qs103ew)
+* [Highest qualification, from Nomis Web](https://www.nomisweb.co.uk/census/2011/qs501ew)
 * [Small area model-based income estimates, England and Wales, from the ONS](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/smallareamodelbasedincomeestimates/financialyearending2014) -- we use the after housing costs estimate.
 * [Ethnic group, by Nomis Web](https://www.nomisweb.co.uk/census/2011/qs201ew)
 * [Postcode to Output Area to ... from the ONS](https://ons.maps.arcgis.com/home/item.html?id=ef72efd6adf64b11a2228f7b3e95deea)
