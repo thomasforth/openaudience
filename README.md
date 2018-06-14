@@ -47,5 +47,9 @@ A final issue is around sensitivity of language and description, especially wher
 ## License.
 The code for processing the raw data is licensed under the MIT license. Data is licensed under the [Open Government License v3 (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), as it based on OGL licensed content itself.
 
-## Funding.
-This work was part-funded and supported by [Leeds Capital of Culture 2023](http://leeds2023.co.uk/) and Leeds City Council with additional support from The Data City and using open source components developed during projects with ODILeeds, The Future Cities Catapult, Arup, and The University of Leeds. It has been tested in Leeds and Bradford with Universities, small arts venues, and at The Open Data Institute Leeds.
+## Funding and support.
+This work was part-funded and supported by [Leeds Capital of Culture 2023](http://leeds2023.co.uk/) and Leeds City Council as part of their efforts to understand cultural attendence right across the city and in a full range of venues.
+
+We have had additional support from The Data City and this work is only possible by re-using open source components developed during projects with ODILeeds, The Future Cities Catapult, Arup, and The University of Leeds.
+
+We have tested OpenAudience in Leeds and Bradford with Universities, small arts venues, and at The Open Data Institute Leeds. We regularly hear from users who are getting great results right across England and Wales.
