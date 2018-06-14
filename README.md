@@ -1,6 +1,6 @@
 # Open Audience
 
-Open Audience uses open data to analyse the demographics of your audience or users. Paste in a list of postcodes and see what type of people live there.
+Open Audience uses open data to analyse the demographics of your audience or users within England and Wales. Paste in a list of postcodes and see what type of people live there. You can also paste in Output Areas.
 
 Try it at [openaudience.org](openaudience.org).
 
