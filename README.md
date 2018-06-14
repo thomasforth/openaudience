@@ -48,7 +48,7 @@ A final issue is around sensitivity of language and description, especially wher
 The code for processing the raw data is licensed under the MIT license. Data is licensed under the [Open Government License v3 (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), as it based on OGL licensed content itself.
 
 ## Funding and support.
-This work was part-funded and supported by  Leeds City Council as part of their efforts to understand cultural attendance right across the city and in a full range of venues, helping to inform the development and delivery of the new Culture Strategy for Leeds 2017-2030.[http://leeds2023.co.uk/].
+This work was part-funded and supported by Leeds City Council as part of its efforts to understand cultural attendance right across the city and in a full range of venues, helping to inform the development and delivery of the new Culture Strategy for Leeds 2017-2030.[http://leeds2023.co.uk/].
 
 We have had additional support from The Data City and this work is only possible by re-using open source components developed during projects with ODILeeds, The Future Cities Catapult, Arup, and The University of Leeds.
 
