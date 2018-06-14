@@ -19,10 +19,12 @@ We take the following data,
 
 We process it in C# to create two tables,
 
-1. Postcode to Output Area lookup.
+1. Baselines.
 2. Output Area to data lookup (there are over 30 columns in this table).
 
-These are then served from a database (we use MySQL), via PHP, to an HTML5 app that process user input and displays the results.
+We additionally use a Postcode to Output Area lookup.
+
+These three files are then served from a database (we use MySQL), via PHP, to an HTML5 app that processes user input and displays the results. This web app is live at openaudience.org where you can see the source code. We may put it here at a later date (it's a mess now).
 
 A key part of our algorithm is assigning output areas to one of the following groups,
 * Students and young pro's
@@ -33,15 +35,17 @@ A key part of our algorithm is assigning output areas to one of the following gr
 * Poorer older people
 * Wealthy older people
 
-To do this we assign each output area one of low income, middle income, and high income -- based on their position within England & Wales' income distribution by small-area. We assign an age profile based on which of young children, older children, young adults, or older adults are most strongly over-represented in the data.
+To do this we assign each output area one of low income, middle income, and high income -- based on their position within England & Wales' income distribution by small-area. We assign an age profile based on which of young children, older children, young adults, or older adults are most strongly over-represented in the data, with a fudge factor on older adults to keep them from being over-represented.
 
 ## Known issues.
-The biggest issue that we know about with this tool comes from the need to set a baseline for comparison. To say whether a place is poorer or richer than average, we need to decide what average to use. We set our baseline using all the data available, and so this usually for the whole of England and Wales. When looking at national events this is fine, but if we're looking at events in just one place this be a bit misleading. For example, an event in West London may attract a representative mix of local people -- but our tool would report the audience as being above national average income and with an above average number of professionals (class AB). Similarly an event in East Yorkshire may attract a representative mix of local people -- but our tool would report this as being well below the national average for ethnic diversity. We have built local versions of our tool for Leeds and Bradford but for simplicity are not sharing them here. If you'd like such a tool, please get in touch.
+The biggest issue that we know about with this tool comes from the need to set a baseline for comparison. To say whether a place is poorer or richer than average, we need to decide what average to use. We set our baseline using all of the data available, and so this usually for the whole of England and Wales. When looking at national events this is fine, but if we're looking at events in just one place this be a bit misleading. For example, an event in West London may attract a representative mix of local people -- but our tool would report the audience as being above national average income and with an above average number of professionals (class AB). Similarly an event in East Yorkshire may attract a representative mix of local people -- but our tool would report this as being well below the national average for ethnic diversity. We have built local versions of our tool for Leeds and Bradford but for simplicity are not sharing them here. If you'd like such a tool, please get in touch.
 
 Another issue is that we only know where people come from, and nothing more about them. The output of our tool is good for general demographic analysis, but should be improved with surveys at the venue to do much more.
+
+A final issue is around sensitivity of language and description, especially where we make the extreme simplifications needed to have a useful tool.
 
 ## License.
 The code for processing the raw data is licensed under the MIT license. Data is licensed under the [Open Government License v3 (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), as it based on OGL licensed content itself.
 
 ## Funding.
-This work was part-funded and supported by [Leeds Capital of Culture 2023](http://leeds2023.co.uk/) and Leeds City Council. It has been tested in Leeds and Bradford with Universities, small arts venues, and at The Open Data Institute Leeds.
+This work was part-funded and supported by [Leeds Capital of Culture 2023](http://leeds2023.co.uk/) and Leeds City Council with additional support from The Data City and using open source components developed during projects with ODILeeds, The Future Cities Catapult, Arup, and The University of Leeds. It has been tested in Leeds and Bradford with Universities, small arts venues, and at The Open Data Institute Leeds.
